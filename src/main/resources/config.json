@@ -1,0 +1,9 @@
+{
+	"_comment": "Use local - using real devices, browserstack - using browserstack" ,
+	"server": "local",
+	"urls": [
+		{
+			"browserstackURL": "https://hub.browserstack.com/wd/hub"
+		}
+	]
+}

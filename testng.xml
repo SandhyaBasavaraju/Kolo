@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Kolo Web Automation">
+	<test name="ecommerce">
+		<parameter name="deviceIndex" value="1" />
+		<classes>
+		<class name="com.productdetail.test.PDPForPostType0_WhatsappTest" />
+		 
+  			<class name="com.productdetail.test.PDPForPostType2_AffiliateProductTest" />
+<!--   			<class name="com.productdetail.test.PDPForPostType1_CheckoutTest" />
+ --> 			
+		</classes>
+	</test>
+</suite> 

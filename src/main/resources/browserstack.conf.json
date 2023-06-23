@@ -1,0 +1,20 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"capabilities": {
+		"project": "Kolo WebProject",
+		"build": "Local execution",
+		"name": "test",
+		"browserstack.debug": true,
+		"browserstack.user": "sathyasagar_FfJoIz",
+		"browserstack.key": "qbVTy6YCR7YGDbssgfZK"
+		
+	},
+	 "environments": [
+    {
+	  "browserName":"chrome",
+	  "browserVersion":"111",
+	  "os":"Windows",
+      "os_version": "11"
+    }
+  ]
+}

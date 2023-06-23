@@ -1,0 +1,11 @@
+{
+	"capabilities": {
+		"osPath": "Windows",
+		"browserName": "Chrome"
+	},
+	"environments": [
+		{
+			
+		}
+	]
+}
