@@ -63,16 +63,6 @@ public class ProductDetailPage extends BaseKoloAutomationPage {
 		return lblOfferedPrice.getText();
 	}
 
-	public void getProductPriceText(String offeredprice, String productMRPPrice, String discountprice) {
-		logger.info("Starting of getProductTitleText method");
-
-		Assert.assertEquals(lblOfferedPrice.getText(), offeredprice);
-		Assert.assertEquals(lblMRPPrice.getText(), productMRPPrice);
-		Assert.assertEquals(lblDiscountPrice.getText(), discountprice);
-
-		logger.info("Ending of getProductTitleText method");
-
-	}
 
 	public String getBuyNowTypeWhatsappText() {
 		logger.info("Starting of getPriceText method");

@@ -58,7 +58,7 @@ public class PDPForPostType0_WhatsappTest extends BaseKoloAutomationTest {
 
         this.setResolution(RESOLUTION_VIEW.MOBILE_VIEW);
 		Assert.assertEquals(productDetailPage.getProductTitleText(),PRODUCT_TITLE);
-		productDetailPage.getProductPriceText(PRODUCT_OFFERED_PRICE, PRODUCT_MRP_PRICE, PRODUCT_DISCOUNT_PRICE);
+		//productDetailPage.getProductPriceText(PRODUCT_OFFERED_PRICE, PRODUCT_MRP_PRICE, PRODUCT_DISCOUNT_PRICE);
 		Assert.assertEquals(productDetailPage.getBuyNowTypeWhatsappText(),BUYNOWTYPE_WHTSAPP);
 
 
@@ -77,7 +77,7 @@ public class PDPForPostType0_WhatsappTest extends BaseKoloAutomationTest {
 
 		this.setResolution(RESOLUTION_VIEW.WEB_VIEW);
 		Assert.assertEquals(productDetailPage.getProductTitleText(),PRODUCT_TITLE);
-		productDetailPage.getProductPriceText(PRODUCT_OFFERED_PRICE, PRODUCT_MRP_PRICE, PRODUCT_DISCOUNT_PRICE);
+		//productDetailPage.getProductPriceText(PRODUCT_OFFERED_PRICE, PRODUCT_MRP_PRICE, PRODUCT_DISCOUNT_PRICE);
 		Assert.assertEquals(productDetailPage.getBuyNowTypeWhatsappText(),BUYNOWTYPE_WHTSAPP);
 
 

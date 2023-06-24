@@ -7,8 +7,8 @@
 		<class name="com.productdetail.test.PDPForPostType0_WhatsappTest" />
 		 
   			<class name="com.productdetail.test.PDPForPostType2_AffiliateProductTest" />
-<!--   			<class name="com.productdetail.test.PDPForPostType1_CheckoutTest" />
- --> 			
+  			<class name="com.productdetail.test.PDPForPostType1_CheckoutTest" />
+ 			
 		</classes>
 	</test>
 </suite> 
